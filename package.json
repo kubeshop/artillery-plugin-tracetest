@@ -1,0 +1,38 @@
+{
+  "name": "artillery-plugin-tracetest",
+  "author": "Sebastian Choren",
+  "license": "MIT",
+  "version": "0.0.29",
+  "description": "Tracetest x Playwright",
+  "keywords": [
+    "tracetest",
+    "playwright",
+    "end-to-end",
+    "trace-based-testing"
+  ],
+  "homepage": "https://tracetest.io",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://tracetest.io"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "echo 'BUILD'",
+    "test": "echo 'CORE TESTS'"
+  },
+  "dependencies": {
+    "@tracetest/client": "^0.0.29",
+    "debug": "^4.3.4",
+    "js-yaml": "^4.1.0",
+    "uuidv4": "^6.2.13"
+  }
+}
